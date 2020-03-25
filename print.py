@@ -18,4 +18,5 @@ Hello '''
 
 print(tripleQuotes)
 
-print('Int: %05d Float: %.2f String: %s Charecter: %c'%(1,2.345,'Impana','S'))
+output = 'Int: %05d Float: %.2f String: %s Charecter: %c'%(1,2.345,'Impana','S')
+print(output)
