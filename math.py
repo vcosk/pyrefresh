@@ -7,9 +7,9 @@ print('1 + 2 = ', 1 + 2)
 print('1 - 2 = ', 1 - 2)
 print('1 * 2 = ', 1 * 2)
 print('1 / 2 = ', 1 / 2)
-print('5 % 2 = ', 5 % 2)
-print('5 ** 2 = ', 5 ** 2)
-print('5 // 2 = ', 5 // 2)
+print('Modulo 5 % 2 = ', 5 % 2)
+print('Exponent 5 ** 2 = ', 5 ** 2)
+print('Int division 5 // 2 = ', 5 // 2)
 
 
 # Math Functions

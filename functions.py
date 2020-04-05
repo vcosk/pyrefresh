@@ -52,3 +52,9 @@ def multList(list, func):
 
 data = list(range(0,10))
 print(f'List {data} scaled by 5:', multList(data, multBy5))
+
+# Exploding a list
+def func(arg1, arg2, arg3):
+    print('Exploded list:',arg1, arg2, arg3)
+
+func(*[1,2,3])

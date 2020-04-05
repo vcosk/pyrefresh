@@ -48,3 +48,13 @@ print("Max ", max([1, 2, 3]))
 print("1st 2", l1[0:2])
 print("Every Other ", l1[0:-1:2])
 print("Reverse ", l1[::-1])
+
+x,y,z=2,2,2
+n=2
+coordinates = [[i,j,k] for i in range(x+1) \
+     for j in range(y+1) \
+     for k in range(z+1) if i+j+k!=n]
+print(coordinates)
+
+
+# *[] explodes a list for function parameters

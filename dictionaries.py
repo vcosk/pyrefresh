@@ -35,3 +35,9 @@ print('mom' in dic1)
 # Formating dictionary entries
 d1 = {'name' : 'bread', 'price' : 0.2356}
 print('%(name)s costs %(price).2f'%d1)
+
+
+# Sorting dictionaries
+scores = {'Harry': 37.21, 'Berry': 37.21, 'Tina': 37.2, 'Akriti': 41, 'Harsh': 39}
+sorted_scores = dict(sorted(scores.items(), key=lambda item: item[1], reverse=True))
+print(scores, sorted_scores)
